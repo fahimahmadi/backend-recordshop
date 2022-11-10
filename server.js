@@ -26,7 +26,9 @@ App.use(incReqCounter);
 /* --------------------------- //routers -------------------------- */
 App.use('/user', userRouter)
 // App.use('/posts', postRouter)
-
+App.get('/', (req, res) => {
+    res.send('Welcome to my App.')
+})
 /* ------------------------- error handling ------------------------ */
 //route not found
 App.use((req, res, next) => {
