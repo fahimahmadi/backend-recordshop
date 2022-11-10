@@ -1,0 +1,13 @@
+{
+  "posts": [],
+  "users": [
+    {
+      "name": "Denis McArdle",
+      "email": "denis@gmail.com",
+      "password": "denis123!"
+    }
+  ],
+  "reqCounter": {
+    "val": 29
+  }
+}
